@@ -1,9 +1,9 @@
 <template>
   <div class="">
     <div class="topbar-custom">
-      <div class="container-fluid">
-        <div class="d-flex justify-content-between">
-          <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center">
+      <div class="container mx-auto">
+        <div class="flex justify-between">
+          <ul class="list-unstyled topnav-menu mb-0 flex align-items-center">
             <li>
               <button class="button-toggle-menu nav-link">
                 <svg
@@ -29,7 +29,7 @@
             </li>
           </ul>
 
-          <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center">
+          <ul class="list-unstyled topnav-menu mb-0 flex align-items-center">
             <li class="d-none d-lg-block">
               <form class="app-search d-none d-md-block me-auto">
                 <div class="position-relative topbar-search">
@@ -180,13 +180,13 @@
                             >
                               <div class="notify-icon">
                                 <img
-                                  src="assets/images/users/user-12.jpg"
+                                  src="https://shorturl.at/oUEMR"
                                   class="img-fluid rounded-circle"
                                   alt=""
                                 />
                               </div>
                               <div
-                                class="d-flex align-items-center justify-content-between"
+                                class="flex align-items-center justify-between"
                               >
                                 <p class="notify-details">Carl Steadham</p>
                                 <small class="text-muted">5 min ago</small>
@@ -208,20 +208,20 @@
                             >
                               <div class="notify-icon">
                                 <img
-                                  src="assets/images/users/user-2.jpg"
+                                  src="https://shorturl.at/oUEMR"
                                   class="img-fluid rounded-circle"
                                   alt=""
                                 />
                               </div>
                               <div class="notify-content">
                                 <div
-                                  class="d-flex align-items-center justify-content-between"
+                                  class="flex align-items-center justify-between"
                                 >
                                   <p class="notify-details">Olivia McGuire</p>
                                   <small class="text-muted">1 min ago</small>
                                 </div>
 
-                                <div class="d-flex mt-2 align-items-center">
+                                <div class="flex mt-2 align-items-center">
                                   <div class="notify-sub-icon">
                                     <i
                                       class="mdi mdi-download-box text-dark"
@@ -245,14 +245,14 @@
                             >
                               <div class="notify-icon">
                                 <img
-                                  src="assets/images/users/user-3.jpg"
+                                  src="https://shorturl.at/oUEMR"
                                   class="img-fluid rounded-circle"
                                   alt=""
                                 />
                               </div>
                               <div class="notify-content">
                                 <div
-                                  class="d-flex align-items-center justify-content-between"
+                                  class="flex align-items-center justify-between"
                                 >
                                   <p class="notify-details">Travis Williams</p>
                                   <small class="text-muted">7 min ago</small>
@@ -273,13 +273,13 @@
                             >
                               <div class="notify-icon">
                                 <img
-                                  src="assets/images/users/user-8.jpg"
+                                  src="https://shorturl.at/oUEMR"
                                   class="img-fluid rounded-circle"
                                   alt=""
                                 />
                               </div>
                               <div
-                                class="d-flex align-items-center justify-content-between"
+                                class="flex align-items-center justify-between"
                               >
                                 <p class="notify-details">Violette Lasky</p>
                                 <small class="text-muted">5 min ago</small>
@@ -301,13 +301,13 @@
                             >
                               <div class="notify-icon">
                                 <img
-                                  src="assets/images/users/user-5.jpg"
+                                  src="https://shorturl.at/oUEMR"
                                   class="img-fluid rounded-circle"
                                   alt=""
                                 />
                               </div>
                               <div
-                                class="d-flex align-items-center justify-content-between"
+                                class="flex align-items-center justify-between"
                               >
                                 <p class="notify-details">Ralph Edwards</p>
                                 <small class="text-muted">5 min ago</small>
@@ -328,14 +328,14 @@
                             >
                               <div class="notify-icon">
                                 <img
-                                  src="assets/images/users/user-6.jpg"
+                                  src="https://shorturl.at/oUEMR"
                                   class="img-fluid rounded-circle"
                                   alt=""
                                 />
                               </div>
                               <div class="notify-content">
                                 <div
-                                  class="d-flex align-items-center justify-content-between"
+                                  class="flex align-items-center justify-between"
                                 >
                                   <p class="notify-details">Jocab jones</p>
                                   <small class="text-muted">7 min ago</small>
@@ -398,7 +398,7 @@
                 aria-expanded="false"
               >
                 <img
-                  src="assets/images/users/user-13.jpg"
+                  src="https://shorturl.at/oUEMRg"
                   alt="user-image"
                   class="rounded-circle"
                 />

@@ -1,7 +1,6 @@
-
 <template>
-    <div>
-        <NavTopbar />
-        <NavSidebar />
-    </div>
+  <div>
+    <NavTopbar />
+    <NavSidebar />
+  </div>
 </template>

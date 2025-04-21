@@ -26,16 +26,20 @@
 
                 <div class="sidebar-section">
                     <div v-for="link in navLinks" :key="link.name">
-                        <div class="sidebar-dropdown mt-2" 
+                        <div class="menu mt-2 flex justify-between items-center" 
                             @click="toggleDropdown(link.name)">
-                            <span class="flex items-center space-x-2">
-                                <i class="fas fa-user"></i>
+                            <NuxtLink to="/" class="menu-item flex items-center w-full justify-between">
+                              <span class=" space-x-3 py-1 ">
+                                <FontAwesomeIcon :icon="link.icon" class="menu-item-icon" />
                                 <span> {{ link.name }}</span>
-                            </span>
-                            <i :class="['fas', open.auth ? 'fa-chevron-up' : 'fa-chevron-down']"></i>
+                              </span>
+                              <FontAwesomeIcon :icon="open[link.name] ? ['fas', 'chevron-up'] : ['fas', 'chevron-down']" />
+                            </NuxtLink>
+                            
+                            
                         </div>
-                        <div v-if="open[link.name]" class="ml-6 space-y-1">
-                            <NuxtLink to="/auth/signin" class="sidebar-sublink">Sign In</NuxtLink>
+                        <div v-if="open[link.name]" class="ml-2 space-y-1 flex flex-col">
+                            <NuxtLink to="/auth/signin" class="sidebar-sublink my-2 py-1 rounded-md px-4 bg-gray-200/60">Sign In</NuxtLink>
                             <NuxtLink to="/auth/signup" class="sidebar-sublink">Sign Up</NuxtLink>
                             <NuxtLink to="/auth/reset-password" class="sidebar-sublink">Reset Password</NuxtLink>
                             <NuxtLink to="/auth/lock-screen" class="sidebar-sublink">Lock Screen</NuxtLink>
@@ -67,6 +71,7 @@
   
   <script setup lang="ts">
 import { Title } from '#components';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
   
   const showSidebar = ref(false)
@@ -81,9 +86,9 @@ import { Title } from '#components';
 
   const navLinks = [
     {
-        name:'link1',
-        title:'link 1',
-        icon:'fas fas-user',
+        name:'Ecommerce',
+        title:'Ecommerce',
+        icon:['fas','house'],
         url:'/fa/user',
     }
   ];

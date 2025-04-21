@@ -1,8 +1,35 @@
 #admin-sidebar{
     width:230px !important;
     background: #fff;
+    
 
     aside{
         width:100%;
+        .sidebar-section{
+            .menu-item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                color: #555;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: all 0.2s ease;
+          
+                .menu-item-icon{
+                  font-size: 14px;
+                }
+          
+                &:hover {
+                    color: #007bff;;
+                }
+          
+                &.active {
+                  color: #007bff;
+                  font-weight: bold;
+                }
+              
+            }
+        }
     }
 }
